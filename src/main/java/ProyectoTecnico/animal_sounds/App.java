@@ -21,13 +21,13 @@ public class App
               Animal animal;
               switch (tipo.toLowerCase()) {
                   case "terrestre":
-                      animal = new Perro(nombre, onomatopeya);
+                      animal = new Terrestre(nombre, onomatopeya);
                       break;
                   case "volador":
-                      animal = new Pajaro(nombre, onomatopeya);
+                      animal = new Acuatico(nombre, onomatopeya);
                       break;
                   case "acuatico":
-                      animal = new Pez(nombre, onomatopeya);
+                      animal = new Volador(nombre, onomatopeya);
                       break;
                   default:
                       throw new IllegalArgumentException("Tipo no válido: " + tipo);

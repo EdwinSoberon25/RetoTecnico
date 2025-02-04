@@ -1,8 +1,8 @@
 package model;
 
-public class Perro extends Animal {
+public class Terrestre extends Animal {
 
-	public Perro(String nombre, String onomatopeya) {
+	public Terrestre(String nombre, String onomatopeya) {
         super(nombre, onomatopeya);
     }
 
